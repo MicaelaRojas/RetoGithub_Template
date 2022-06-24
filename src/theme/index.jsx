@@ -3,16 +3,16 @@ import { createTheme } from "@mui/material/styles";
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#00bcd4",
+      main: "#f50057",
       contrastText: "#fff",
     },
     secondary: {
-      main: "#f50057",
+      main: "#00bcd4",
       contrastText: "#fff",
     }
   },
   typography:{
-    fontFamily:"Roboto,sans-serif",
+    fontFamily:"Swanky and Moo Moo, The Girl Next Door",
     fontSize:14,
     fontWeightLight:300,
     fontWeightRegular:400,
