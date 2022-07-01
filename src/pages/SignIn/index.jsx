@@ -96,7 +96,7 @@ const SignIn = () => {
               <h4>Login con GitHub</h4>
               Well, hello there!
               <p>
-                <a href="https://github.com/login/oauth/authorize?scope=user:email&client_id=9fbae9364e97e6c8ac5c">
+                <a href="https://github.com/login/oauth/authorize?scope=user:email&client_id=0d3ecde7f2a2da038e76">
                   Login
                 </a>
               </p>
