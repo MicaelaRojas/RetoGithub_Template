@@ -9,5 +9,13 @@ export const listRoutes =[
     {
         path: ROUTES.ABOUT,
         elements: <AboutView/>
-    }
+    },
+    {
+        path: ROUTES.SIGNIN,
+        elements: <SignInView/>
+    },
+    {
+        path: ROUTES.CALLBACK,
+        elements: <GithubView/>
+    },
 ];

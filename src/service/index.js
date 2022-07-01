@@ -3,19 +3,19 @@ import { BASE_URL } from "./global";
 
 export const getData = async (url) => {
   try {
-    const response = await axios.get(`${BASE_URL}${url}`, {
-       
-      });
+    const response = await axios.get(`${BASE_URL}${url}`);
     return response.data;
   } catch (error) {
+    console.log("error", error);
     return error;
   }
 };
 
-export const storeData = async (url, data) => {
+export const storeData = async (url, data, blank = false) => {
   try {
-    const response = await axios.post(`${BASE_URL}${url}`, data);
-    return response.data;
+    const baseUrl = blank ? `${BASE_URL}${url}` : `${url}`;
+    const response = await axios.post(baseUrl, data);
+    return response;
   } catch (error) {
     return error;
   }
