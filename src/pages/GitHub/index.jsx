@@ -10,7 +10,7 @@ const GitHub = () => {
 
   const getTokenGitHub = async () => {
     const response = await axios.post(
-      "http://127.0.0.1:9000/user/callback?code=" + code
+      "http://127.0.0.1:9000/user/callback?code=2dc8b84295f99d3614cb" + code
     );
 
     console.log(response.data);
